@@ -7,9 +7,18 @@
     background: gray;
 
 }
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+   border-bottom: 2px solid darkblue;
+
+}
+
 
 .menu-btn {
-    
+    display: none;
 }
 
 .menu-icon {
@@ -75,4 +84,19 @@
     display: block;
     position: absolute;
     top: -0;
+}
+
+/* styling the list item and a element  */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
 }
